@@ -1,8 +1,9 @@
 {
-  "name": "@gabrielrufino/node-template",
+  "name": "shortype",
   "version": "1.0.0",
   "description": "An incredible project made in Node.js",
   "main": "src/index.js",
+  "bin": "src/index.js",
   "type": "module",
   "scripts": {
     "lint": "eslint .",
@@ -23,6 +24,7 @@
     "rimraf": "^5.0.5"
   },
   "dependencies": {
-    "@nut-tree/nut-js": "^3.1.2"
+    "@nut-tree/nut-js": "^3.1.2",
+    "commander": "^11.1.0"
   }
 }
